@@ -3,6 +3,7 @@ import json
 import re
 import traceback
 import pandas as pd
+import variables
 
 def main(path):
     try:
@@ -44,5 +45,5 @@ def main(path):
 
 
 if __name__ == '__main__':
-    path = r"D:\Obsidian_vault\Vault\Игры, Фильмы, Сериалы\Игры.md"
+    path = variables.path
     main(path = path)
